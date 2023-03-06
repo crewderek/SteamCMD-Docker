@@ -37,7 +37,7 @@ USER $STEAM_USER
 WORKDIR $STEAMCMD_DIR
 
 # Expose the default SteamCMD port
-EXPOSE 27015/tcp
+#EXPOSE 27015/tcp
 
 # Set the entrypoint to SteamCMD
-ENTRYPOINT ["./steamcmd.sh"]
+#ENTRYPOINT ["/bin/bash"]
